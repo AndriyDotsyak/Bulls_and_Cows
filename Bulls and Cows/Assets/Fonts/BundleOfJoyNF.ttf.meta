@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 86dbdd0f737556144994fbcefb28e2ae
+timeCreated: 1498301126
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: BundleOfJoyNF
+  fontNames:
+  - BundleOfJoyNF
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

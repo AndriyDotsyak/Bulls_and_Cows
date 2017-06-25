@@ -4,10 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Read_BC : MonoBehaviour {
-    public InputField InputBC;
+    private GameObject InputBC;
 
     public void OnEndEditBC()
     {
-        Buutton_OK.BC = InputBC.text;
+        InputBC = GameObject.Find("InputBC");
+        Game.BC = InputBC.GetComponent<InputField>().text;
     }
 }

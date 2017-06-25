@@ -4,14 +4,16 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Read_Name : MonoBehaviour {
-    public InputField Player_1;
-    public InputField Player_2;
+    private GameObject Player_1;
+    private GameObject Player_2;
 
     public void OnEndEditPlayer1 () {
-        Data_Player.Player_1_Name = Player_1.text;
+        Player_1 = GameObject.Find("Player_1");
+        Data_Player.Player_1_Name = Player_1.GetComponent<InputField>().text;
     }
 
     public void OnEndEditPlayer2() {
-        Data_Player.Player_2_Name = Player_2.text;
+        Player_2 = GameObject.Find("Player_2");
+        Data_Player.Player_2_Name = Player_2.GetComponent<InputField>().text;
     }
 }
